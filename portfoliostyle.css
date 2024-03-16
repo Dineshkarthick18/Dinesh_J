@@ -1,0 +1,53 @@
+#topbar{
+    background-color: white;
+    width: 100%;
+    margin-left: 60px;
+}
+table{
+    width:100%
+}
+td{
+    padding:15px;
+}
+
+section{
+    background-image: url(diagram1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    margin-left: 12vw;
+    width: 40vw;
+    position: relative;
+    top: 25vh;
+    line-height: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content h3{
+    padding-left: 0px;
+}
+p{
+    line-height: 20px;
+}
+button{
+    height: 40px;
+    width: 250px;
+    margin-top: 15px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgb(91, 149, 236);
+    top: 25px;
+    border-width: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
