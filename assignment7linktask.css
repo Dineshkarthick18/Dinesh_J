@@ -1,0 +1,32 @@
+body{
+    background-color: rgba(252, 252, 83, 0.733);
+    margin-left:10em;
+}
+header{
+    font-size: 35px; 
+    color: brown;
+    text-align: center;
+    font-weight: bolder;
+    height: 300;
+    width: 100%;
+    font-family: Georgia;
+}
+hr{
+    background-color:brown;
+    height:3px;
+}
+u{
+    color:blue;
+}
+p{
+    font-size: 20px;
+}
+.data{
+    line-height: 5px;
+    margin-right: 7em;
+}
+img{
+    float:right;
+    display:flex;
+    margin-right: 5em;
+}
