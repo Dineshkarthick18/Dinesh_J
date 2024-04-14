@@ -1,0 +1,34 @@
+table{
+    width:100%
+}
+td{
+    padding:15px;
+}
+
+.fa {
+    padding: 20px;
+    color: aqua;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  button{
+    color:rgb(190, 107, 38);
+    font-weight: bolder;
+    background-color: blue;
+  }
+  section{
+    background-image: url(dhinesh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.icon{
+  padding-left: 200px;
+}
+button{
+  padding: 10px;
+}

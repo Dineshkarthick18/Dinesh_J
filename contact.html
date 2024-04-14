@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        *{
+            align-items: center;
+            justify-content: space-evenly;
+        }
+.Info {
+    margin-top: 100px;
+    padding: 30px;
+    text-align: left;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 200px;
+}
+.column{
+    margin-top: 100px;
+    background-color: gray;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 25px;
+}
+.data{
+    padding-top: 10px;
+    align-items: center;
+    justify-items: center;
+}
+    </style>
+</head>
+<body>
+    <div class="column">
+    <div class="Info">
+        <br><br><br>
+            <h1>Contact Me</h1>
+            <br>
+            <p>Hello People<br>For more update/query you can visit my address<br>kindly find the address</p>
+            <br>
+            <h1>Address:</h1>
+            <p>Gandhi Street<br>Raja nagar<br>Kanchipuram</p>
+        </div>
+
+        <div class="column">
+            <div class="data">
+            <h1 style="font-size: 50px;">Details</h1>
+            <table>
+                <tbody>
+                <tr>
+                    <th>
+                        <label>Name:</label>
+                    </th>
+                    <td>
+                        <input type="text" id="Name:" placeholder="Enter your Name">
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label>Mobile Number:</label>
+                    </th>
+                    <td>
+                        <input type="number" id="Mobile Number:" placeholder="Your current Contact No.">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label>Company Name</label>
+                    </th>
+                    <td>
+                        <input type="text" id="Company Name:" placeholder="Current Company Name">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label>Address:</label>
+                    </th>
+                    <td>
+                        <textarea name="Address:" cols="20" rows="10" placeholder="address"></textarea>
+                    </td>
+                </tr>
+                <tr rowspan="2">
+                    <td>
+                        <button>Submit</button>
+                    </td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
